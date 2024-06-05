@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(247, 147, 200);
+    
+}
+#placeholder{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    transform: scale(0.5);
+    height: 100vh;
+
+}
+img{
+    align-self: center;
+    border: 10px rgb(238, 151, 93);
+    margin: 30px;
+    border-radius: 30px;
+    box-shadow: 0 20px 20px rgb(226, 45, 190);
+    transition: 0.5s all ease-in-out;
+}
+img:hover{
+    transform: scale(2);
+}
+
+
