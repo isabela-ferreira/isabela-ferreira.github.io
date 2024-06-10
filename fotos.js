@@ -16,8 +16,11 @@ window.onload = function(){
     for (;item < 5 ; item++){
         proxImagem(item);
     }
-  
-    
+    setInterval(function(){
+        proxImagem(item++ %max);
+        let scrollPoint = window.scrollY + window.innerHeight;
+        window.scrollTo({top: scrollPoint, behavior: 'smooth'})
+    }, 2000);    
 }
 window.onscroll = function(){
     let altura = document.body.scrollHeight;
