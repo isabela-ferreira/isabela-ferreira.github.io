@@ -21,7 +21,6 @@ body{
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
-     /*border-bottom: 3px solid rgb(227 131 162);*/
     border: 7px double rgb(227 131 162);
 }
 .bolinha{
@@ -89,7 +88,6 @@ body{
     background-color: #70033679;
     width: 300px;
     height: 50px;
-     /*border: 3px solid rgb(235 135 160);*/
     border: 6px double rgb(227 131 162) ;
     border-radius: 5px;
     display: flex;
