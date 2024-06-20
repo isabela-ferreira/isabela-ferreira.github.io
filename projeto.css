@@ -68,6 +68,7 @@ body{
     height: 550px;
     background-color: rgb(74, 23, 41);
     margin-top: 10px;
+    flex-wrap: wrap;
 }
 .projeto{
     width: 230px;
