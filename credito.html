@@ -4,9 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="credito.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     <title>Projeto</title>
+    <script defer>
+        function teste(){
+           const aside = document.querySelectorAll(".aside")[0]
+           const aberto = document.querySelectorAll(".aberto")[0]
+           const geral = document.querySelectorAll(".geral")[0]
+
+            if(aside.style.width == "0vw"){
+                aside.style.width = "100vw";
+                geral.style.overflow = "hidden";
+                setTimeout(function() {
+                    aberto.style.display = "flex";
+                }, 450); 
+                
+            }else{
+                geral.style.overflow = "visible";
+                aside.style.width = "0vw";
+                aberto.style.display = "none";
+            }
+       }
+   </script>
 </head>
 <body>
+    <div class="separado">
+        <button class="botao" onclick="teste()">Clique aqui para navegar</button>
+        <aside class="aside">
+            <div class="aberto">
+                <h1 class="titulos">Acessar projetos:</h1>
+                <a class="links" href="index.html">Página pessoal</a>
+                <a class="links" href="projeto.html">Página de projeto</a>
+                <a class="links" href="credito.html">Página de licença e créditos</a>
+            </div>
+        </aside>
+    </div>
     <div class="cabecalho">
         <div class="nome">
             <div class="bolinha"></div>
@@ -19,6 +53,9 @@
             <p class="traco">||</p>
             <a href="credito.html">Página de licença e créditos</a>
         </div>
+    </div>
+    <div class="sticky">
+        <p>Está na pagina de créditos de cada trabalho meu feito</p>
     </div>
     <div class="geral">
         <div class="parte1">
@@ -50,8 +87,6 @@
                     <p>Nicolas: design/lógica</p>
                 </div>
             </div>
-        </div>
-        <div class="parte2">
             <div class="trab">
                  <div class="titulo">
                     <p>Exemplo Localhost</p>
@@ -80,8 +115,6 @@
                     <p>Nicolas: lógica</p>
                 </div>
             </div>
-        </div>
-        <div class="parte3">
             <div class="trab">
                  <div class="titulo">
                     <p>MQTT</p>

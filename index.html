@@ -3,44 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="isa.css">
+    <link rel="stylesheet" href="index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playwrite+ES:wght@100..400&family=Poiret+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     <title>Página pessoal</title>
+    <script defer>
+        function teste(){
+           const aside = document.querySelectorAll(".aside")[0]
+           const aberto = document.querySelectorAll(".aberto")[0]
+           const geral = document.querySelectorAll(".geral")[0]
+
+            if(aside.style.width == "0vw"){
+                aside.style.width = "100vw";
+                geral.style.overflow = "hidden";
+                setTimeout(function() {
+                    aberto.style.display = "flex";
+                }, 450); 
+                
+            }else{
+                geral.style.overflow = "auto";
+                aside.style.width = "0vw";
+                aberto.style.display = "none";
+            }
+        }
+   </script>
 </head>
 <body>
+    <div class="separado">
+        <button class="botao" onclick="teste()">Clique aqui para navegar</button>
+        <aside class="aside">
+            <div class="aberto">
+                <h1 class="titulos">Acessar projetos:</h1>
+                <a class="links" href="index.html">Página pessoal</a>
+                <a class="links" href="projeto.html">Página de projeto</a>
+                <a class="links" href="credito.html">Página de licença e créditos</a>
+            </div>
+        </aside>
+    </div>
     <div class="cabecalho">
         <div class="nome">
             <div class="bolinha"></div>
-            <p>Isabela Ferreira </p>
+            <p>Isabela Ferreira</p>
         </div>
         <div class="opcoes">
-            <a href="./index.html">Página pessoal</a>
+            <a href="index.html">Página pessoal</a>
             <p class="traco">||</p>
-            <a href="./projeto.html">Página de projeto</a>
+            <a href="projeto.html">Página de projeto</a>
             <p class="traco">||</p>
-            <a href="./credito.html">Página de licença e créditos creditos</a>
+            <a href="credito.html">Página de licença e créditos</a>
         </div>
     </div>
     <div class="geral">
-        <div class="parte1">
-            <img src="isa l.jpg" class="foto" alt="">
-        </div>
-        <div class="parte2">
-            <div class="inform">
-                <div class="titulo">Olá!</div>
-                <br>
-                <div class="informacoes">Minhas informações:</div>
-                <br>
-                <div class="barra">
-                    <p>Nome:Isabela Ferreira</p>
+        <div class="card">
+            <div class="parte1">
+                <p>Olá, eu sou a  Isabela</p>
+            </div>
+            <div class="parte2">
+                <img src="isa l.jpg" class="foto" alt="">
+            </div>
+            <div class="parte3">
+                <div class="coluna1">
+                    <div class="titulo">Minhas informações:</div>
                 </div>
-                <br>
-                <div class="barra">
-                    <p>G-mail: infoisabela2022.02@gmail.com</p>
+                <div class="coluna2">
+                    <div class="barra">
+                        <a href="https://github.com/schmidt23355/schmidt23355.github.io"><p>Acessar meu GitHub pessoal</p></a>
+                    </div>
+                    <div class="barra">
+                        <p class="gmail">G-mail: infoisabela2022.02@gmail.com</p>
+                    </div>
+                    <div class="informacoes2">Linguagens de programação:</div>
+                    <div class="barra">
+                        <p>JavaScript</p>
+                        <p>PHP</p>
+                    </div>
                 </div>
             </div>
+        </div>
+        <div class="sticky">
+            <p>Veja meus projetos e créditos na guia lateral</p>
         </div>
     </div>
 </body>
