@@ -168,6 +168,7 @@ html{
     background-color: rgb(48 22 80);
     width: 230px;
     height: 125px;
+    border-radius: 15px;
 }
 .texto2{
     flex-direction: column;
