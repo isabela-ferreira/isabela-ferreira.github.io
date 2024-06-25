@@ -22,6 +22,11 @@ body{
     animation: fundo 2s linear;
     filter: blur(0px);
 }
+
+html{
+    overflow-x: hidden;
+}
+
 @keyframes fundo {
     0% 
     {

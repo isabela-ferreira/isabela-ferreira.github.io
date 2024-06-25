@@ -21,6 +21,11 @@ body{
     height: fit-content;
     flex-direction: column;
 }
+
+html{
+    overflow-x: hidden;
+}
+
 .cabecalho{
     width: 100vw;
     height: fit-content;
