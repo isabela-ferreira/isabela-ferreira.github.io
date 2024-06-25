@@ -12,17 +12,13 @@ a{
     color: rgba(209, 173, 245);
 }
 body{
-    background: linear-gradient(to right, rgb(20, 3, 37), rgba(48, 22, 80));
+    background-color: rgba(48, 22, 80);
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100vw;
     height: fit-content;
     flex-direction: column;
-}
-
-html{
-    overflow-x: hidden;
 }
 .cabecalho{
     width: 100vw;
@@ -108,7 +104,7 @@ html{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 5px double rgba(209, 173, 245);
+    border: 5px double rgb(209 173 245);
 }
 .parte3{
     width: 450px;
@@ -252,14 +248,14 @@ html{
         padding-top: 30px;
     }
     .parte2{
-        width: 450px;
-        height: 200px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        border: 5px double rgb(209 173 245);
-    }
+       width: 450px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px double rgb(209 173 245);
+}
     }
     .foto{
         width: 53%;
