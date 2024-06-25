@@ -178,6 +178,7 @@ html{
     align-items: center;
     justify-content: center;
     text-align: center;
+    border-radius: 15px
 }
 .link{
     color: blue;
