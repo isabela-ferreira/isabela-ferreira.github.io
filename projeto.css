@@ -3,6 +3,7 @@
     padding: 0;
     font-family: "Roboto Mono", monospace;
     color: rgb(209 173 245);
+    border-radius: 13px
 }
 .separado{
     display: none;
@@ -114,6 +115,7 @@ html{
     position: relative;
     left: 0px;
     transform: rotate(0deg);
+    border-radius: 17px;
 }
 @keyframes anima {
     0% 
@@ -155,6 +157,7 @@ html{
     align-items: center;
     border-bottom: 2px solid rgb(201 52 176);
     border-top: 2px solid rgb(201 52 176);
+    border-radius: 11px;
 }
 .texto{
     background-color: rgb(48 22 80);
