@@ -165,7 +165,7 @@ body{
         z-index: 2;
         width: 150px;
         font-size: 15px;
-        background-color: rgb(20 3 37);
+        background-color: rgb(48 22 80);
         font-weight: bold;
     }
     .separado{
@@ -176,24 +176,27 @@ body{
     .titulos{
         margin-top: 70px;
         margin-bottom: 30px;
-        background-color: rgb(48 22 80);
-        width: 100vw;
+        background-color: rgb(251 251 251 / 5%);
         display: flex;
         justify-content: center;
         border-bottom: 5px solid black;
         border-top: 5px solid black;
         height: fit-content;
+        width: 100vw;
+        border-right: 5px solid;
+        text-shadow: -1px 2px 9px rgb(241 9 106);
+    
     }
     .links{
         text-decoration: none;
-        background: white;
+        background: rgb(48 22 80);
         margin-bottom: 22px;
         width: 100vw;
         height: fit-content;
         display: flex;
         justify-content: center;
-        border-bottom: 5px solid black;
-        border-top: 5px solid black;    
+        border-bottom: 5px solid rgb(0 0 0);
+        border-top: 5px solid rgb(6 6 6); 
     }
     .aberto{
         display: none;
@@ -249,12 +252,12 @@ body{
     }
     .parte2{
        width: 450px;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: 5px double rgb(209 173 245);
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 5px double rgb(209 173 245);
     }
     .foto{
         width: 53%;
