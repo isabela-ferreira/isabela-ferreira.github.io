@@ -110,7 +110,7 @@ html{
     background-color: rgb(209 173 245);
     border: 2px solid rgb(201 52 176);
     margin: 10px;
-    box-shadow: 4px 1px 12px 0px rgb(209 173 245);
+    box-shadow: -3px -1px 14px 0px rgb(209 173 245);
     animation: anima 2s linear;
     position: relative;
     left: 0px;

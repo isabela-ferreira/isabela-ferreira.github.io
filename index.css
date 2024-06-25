@@ -169,7 +169,7 @@ html{
         z-index: 2;
         width: 150px;
         font-size: 15px;
-        background-color: #47ff50;
+        background-color: rgb(20 3 37);
         font-weight: bold;
     }
     .separado{
@@ -180,7 +180,7 @@ html{
     .titulos{
         margin-top: 70px;
         margin-bottom: 30px;
-        background-color: wheat;
+        background-color: rgb(48 22 80);
         width: 100vw;
         display: flex;
         justify-content: center;
@@ -244,10 +244,10 @@ html{
         justify-content: center;
         align-items: center;
         font-size: 22px;
-        border-top: 5px solid black;
-        border-bottom: 5px solid black;
+        border-top: 5px solid rgb(209 173 245);
+        border-bottom: 5px solid rgb(209 173 245);
         border-radius: 0px;
-        background-color: orange;
+        background-color: rgb(20 3 37);
         padding-bottom: 30px;
         padding-top: 30px;
     }
@@ -259,7 +259,7 @@ html{
         align-items: center;
         border-radius: 0px;
         border: none;
-        background-color: white;
+        background-color: rgb(20 3 37);
         justify-content: center;
         border-bottom: 5px solid;
     }
@@ -306,7 +306,7 @@ html{
         border-radius: 0px;
     }
     .barra{
-        background-color: #b9b1b19c;
+        background-color: #b9b1b140;;
         width: 50vw;
         height: 50px;
         border: 3px solid black;
