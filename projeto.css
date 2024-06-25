@@ -3,7 +3,7 @@
     padding: 0;
     font-family: "Roboto Mono", monospace;
     color: rgb(209 173 245);
-    border-radius: 13px
+    
 }
 .separado{
     display: none;
@@ -110,7 +110,7 @@ html{
     background-color: rgb(209 173 245);
     border: 2px solid rgb(201 52 176);
     margin: 10px;
-    box-shadow: 4px 4px 7px 0px rgb(209 173 245);
+    box-shadow: 4px 1px 12px 0px rgb(209 173 245);
     animation: anima 2s linear;
     position: relative;
     left: 0px;
@@ -132,22 +132,27 @@ html{
 .foto{
     width: 230px;
     height: 130px;
+    border-radius: 13px;
 }
 .img{
     width: 230px;
     height: 130px;
+    border-radius: 13px;
 }
 .img2{
     width: 230px;
     height: 130px;
+    border-radius: 13px;
 }
 .img3{
     width: 200px;
     height: 110px;
+    border-radius: 13px;
 }
 .img5{
     width: 230px;
     height: 130px;
+    border-radius: 13px;
 }
 .titulo{
     width: 230px;
