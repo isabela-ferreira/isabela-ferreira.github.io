@@ -121,10 +121,9 @@ body{
     display: flex;
     font-size: 20px;
     align-items: center;
-    padding-left: 10px;
-    border-radius: 0px 0px 0px 5px;
     width: 180px;
     height: 241px;
+    padding-left: 5px;
 }
 .coluna2{
     width: 260px;
@@ -133,20 +132,21 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    border-radius: 0px 0px 25px 0px;
     font-size: 15px;
+    border-radius: 0px;
 }
 .barra{
-    background-color: #b9b1b11f;
+    background-color: #b9b1b140;
     width: 247px;
     height: 50px;
-    border: 3px solid rgba(209, 173, 245);
+    border: 3px solid black;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: 14px;
+    font-size: 15px;
+    margin-bottom: 10px;
 }
 .gmail{
     font-size: 14px;
