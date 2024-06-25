@@ -76,7 +76,7 @@ body{
     align-items: center
 }
 .sticky{
-    background-color: rgb(48 22 80);;
+    background-color: rgb(48 22 80);
     position: sticky;
     top: 6px;
     text-align: center;
