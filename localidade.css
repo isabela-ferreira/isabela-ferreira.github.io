@@ -12,11 +12,7 @@ html{
 }
 a{
     text-decoration: none;
-<<<<<<< HEAD
     color: rgb(209 173 245);
-=======
-    color: rgb(209 173 245);;
->>>>>>> a5565c683d0c4a549847f12d5543925f7b9a6b2c
 }
 body{
     background: linear-gradient(to right, rgb(20, 3, 37), rgba(48, 22, 80));
