@@ -103,8 +103,8 @@ body{
 }
 
 #btncep{
-    color: rgba(48, 22, 80);
-    background-color: rgb(209 173 245);
+    color: rgb(209 173 245);
+    background-color: rgba(48, 22, 80);
 }
 @media screen and (width < 415px) {
     body{
