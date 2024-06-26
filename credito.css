@@ -151,9 +151,9 @@ html{
         z-index: 2;
         width: 150px;
         font-size: 15px;
-        background-color: rgb(85 30 95)
-        font-weight: bold;
-    }
+        background-color: rgb(125 10 106);
+        }
+    
     .separado{
         width: 50vw;
         height: 100%;
@@ -162,7 +162,7 @@ html{
     .titulos{
         margin-top: 70px;
         margin-bottom: 30px;
-        background-color: wheat;
+        background-color: rgb(125 10 106);
         width: 100vw;
         display: flex;
         justify-content: center;
@@ -172,7 +172,7 @@ html{
     }
     .links{
         text-decoration: none;
-        background: white;
+        background: rgb(48 22 80);
         margin-bottom: 22px;
         width: 100vw;
         height: fit-content;
@@ -191,7 +191,7 @@ html{
     aside{
         display: flex;
         transition: 0.5s ease-in-out;
-        background: rgb(226 96 96);
+        background: rgb(85 30 95);
         position: absolute;
         width: 0vw;
         height: 101vh;
