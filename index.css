@@ -257,7 +257,7 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        border: 5px double rgb(209 173 245);
+        border: 14px double rgb(209 173 245);
     }
     .foto{
         width: 53%;
