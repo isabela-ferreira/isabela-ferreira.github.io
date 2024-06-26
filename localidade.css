@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: "Roboto Mono", monospace;
+    color: rgb(209 173 245);
 }
 html{
     overflow-x: hidden;
@@ -11,10 +12,10 @@ html{
 }
 a{
     text-decoration: none;
-    color: black;
+    color: rgb(209 173 245);;
 }
 body{
-    background-color: rgba(230, 230, 230, 1);
+    background: linear-gradient(to right, rgb(20, 3, 37), rgba(48, 22, 80));
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,6 +23,11 @@ body{
     height: fit-content;
     flex-direction: column;
 }
+
+.caxa{
+    background-color: rgba(48, 22, 80);
+}
+
 .cabecalho{
     width: 100vw;
     height: fit-content;
@@ -76,7 +82,7 @@ body{
     margin-top: 50px;
     width: 500px;
     height: 360px;
-    border: 5px solid black;
+    border: 5px solid rgb(209 173 245);;
     border-radius: 10px;
 }
 .sep{
@@ -87,7 +93,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    border-bottom: 4px solid black;
+    border-bottom: 4px solid rgb(209 173 245);;
     padding-bottom: 12px;
 }
 #btncep:hover{
