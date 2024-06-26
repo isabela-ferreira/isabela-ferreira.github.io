@@ -172,7 +172,7 @@ html{
     }
     .links{
         text-decoration: none;
-        background: rgb(48 22 80);
+        background: rgb(20, 3, 37);
         margin-bottom: 22px;
         width: 100vw;
         height: fit-content;
@@ -191,7 +191,7 @@ html{
     aside{
         display: flex;
         transition: 0.5s ease-in-out;
-        background: rgb(85 30 95);
+        background: rgb(48 22 80);
         position: absolute;
         width: 0vw;
         height: 101vh;
@@ -237,7 +237,7 @@ html{
     .titulo{
         width: 100%;
         height: 90px;
-        background-color: rgb(85 30 95);
+        background-color: rgb(125 10 106);
         display: flex;
         align-items: center;
         justify-content: center;
