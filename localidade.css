@@ -34,10 +34,10 @@ body{
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
-    border-bottom: 3px solid rgb(255 255 255);
+    border-bottom: 3px solid rgb(209 173 245);
 }
 .bolinha{
-    background-color: yellow;
+    background-color: rgb(209 173 245);
     width: 35px;
     height: 35px;
     border-radius: 100%;
