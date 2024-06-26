@@ -165,7 +165,7 @@ body{
         z-index: 2;
         width: 150px;
         font-size: 15px;
-        background-color: rgb(48 22 80);
+        background-color: rgb(125 10 106);
         font-weight: bold;
     }
     .separado{
@@ -176,7 +176,7 @@ body{
     .titulos{
         margin-top: 70px;
         margin-bottom: 30px;
-        background-color: rgb(251 251 251 / 5%);
+        background-color: rgb(125 10 106);
         display: flex;
         justify-content: center;
         border-bottom: 5px solid black;
@@ -189,7 +189,7 @@ body{
     }
     .links{
         text-decoration: none;
-        background: rgb(48 22 80);
+        background: rgb(20 3 37);
         margin-bottom: 22px;
         width: 100vw;
         height: fit-content;
@@ -208,7 +208,7 @@ body{
     aside{
         display: flex;
         transition: 0.5s ease-in-out;
-        background: rgb(226 96 96);
+        background: rgba(48, 22, 80);
         position: absolute;
         width: 0vw;
         height: 108vh;
