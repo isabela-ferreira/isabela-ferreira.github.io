@@ -190,7 +190,7 @@ html{
     aside{
         display: flex;
         transition: 0.5s ease-in-out;
-        background: rgb(48 22 80);
+        background: linear-gradient(to right, rgb(20, 3, 37), rgba(48, 22, 80));
         position: absolute;
         width: 0vw;
         height: 101vh;
