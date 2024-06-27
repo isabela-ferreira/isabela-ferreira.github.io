@@ -110,7 +110,7 @@ html{
 }
 .trab{
     width: 225px;
-    height: 195px;
+    height: 205px;
     display: flex;
     flex-direction: column;
     border: 2px solid rgb(209 173 245);
