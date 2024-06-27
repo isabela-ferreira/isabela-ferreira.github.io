@@ -15,7 +15,7 @@ a{
     color: rgb(209 173 245);
 }
 body{
-    background: linear-gradient(to right, rgb(20, 3, 37), rgba(48, 22, 80));
+    background: linear-gradient(to left, rgb(20, 3, 37), rgba(48, 22, 80));
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,6 +95,7 @@ body{
     align-items: center;
     border-bottom: 4px solid rgb(209 173 245);;
     padding-bottom: 12px;
+    background-color: rgb(48 22 80);
 }
 #btncep:hover{
     background-color: rgb(209 173 245);
@@ -112,6 +113,12 @@ body{
         background-color: black;
         overflow: visible;
     }
+    
+    .caxa{
+        background-color: rgba(48, 22, 80);
+        border: 3px solid rgb(209 173 245);
+    }
+    
     .sep{
         width: 100%;
         height: 50px;
@@ -120,7 +127,7 @@ body{
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        border-bottom: 4px solid black;
+        border-bottom: 4px solid rgb(209 173 245);;
         padding-bottom: 12px;
         background-color: rgba(230, 230, 230, 1);
     }
@@ -134,7 +141,7 @@ body{
         z-index: 2;
         width: 150px;
         font-size: 15px;
-        background-color: #47ff50;
+        background-color: rgb(125 10 106);;
         font-weight: bold;
     }
     .separado{
@@ -145,7 +152,7 @@ body{
     .titulos{
         margin-top: 70px;
         margin-bottom: 30px;
-        background-color: wheat;
+        background-color: rgb(125 10 106);
         width: 100vw;
         display: flex;
         justify-content: center;
@@ -155,7 +162,7 @@ body{
     }
     .links{
         text-decoration: none;
-        background: white;
+        background: rgb(20, 3, 37);;
         margin-bottom: 22px;
         width: 100vw;
         height: fit-content;
@@ -174,7 +181,7 @@ body{
     aside{
         display: flex;
         transition: 0.5s ease-in-out;
-        background: rgb(226 96 96);
+        background: linear-gradient(to right, rgb(20, 3, 37), rgba(48, 22, 80));
         position: absolute;
         width: 0vw;
         height: 108vh;
