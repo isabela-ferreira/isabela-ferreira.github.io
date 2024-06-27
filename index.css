@@ -173,7 +173,7 @@ body{
         height: 100%;
         display: block;
     }
-    .titulos{
+    .titulo{
         margin-top: 70px;
         margin-bottom: 30px;
         background-color: rgb(125 10 106);
@@ -184,7 +184,7 @@ body{
         height: fit-content;
         width: 100vw;
         border-right: 5px solid;
-        text-shadow: -1px 2px 9px rgb(241 9 106);
+        
     
     }
     .links{
@@ -244,7 +244,6 @@ body{
         align-items: center;
         font-size: 22px;
         border-top: 5px solid rgb(209 173 245);
-        border-bottom: 5px solid rgb(209 173 245);
         border-radius: 0px;
         background-color: rgb(20 3 37);
         padding-bottom: 30px;
