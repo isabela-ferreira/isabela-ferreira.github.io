@@ -26,6 +26,7 @@ body{
 
 .caxa{
     background-color: rgba(48, 22, 80);
+    border: 2px solid rgb(209 173 245);
 }
 
 .cabecalho{
