@@ -127,9 +127,9 @@ body{
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        border-bottom: 4px solid rgb(209 173 245);;
+        border-bottom: 4px solid rgb(20 3 37);
         padding-bottom: 12px;
-        background-color: rgba(230, 230, 230, 1);
+        background-color: rgb(48 22 80);
     }
     .cabecalho{
         display: none;
